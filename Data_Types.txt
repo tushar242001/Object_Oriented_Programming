@@ -1,0 +1,27 @@
+There are three types of Data Types in C++.
+1)Primary 
+2)Derived 
+3)User Defined 
+
+Primary              Derived                    User Defined
+
+int                  Array                       Structure 
+char                Pointer                      Union
+float               Function                     Enum
+Void                                             class
+long 
+double 
+
+Object Oriented Principles
+
+1)Object 
+2)Class 
+3) Encapsulation 
+4) Polymorphism
+         i) Functional Overloading
+         ii) Constructor Overloading 
+         iii) Operator Overloading
+5) Inheritance
+6)Abstraction 
+7) Data Hiding 
+8) Exception Handling 
