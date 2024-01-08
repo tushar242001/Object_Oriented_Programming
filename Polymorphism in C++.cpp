@@ -1,10 +1,17 @@
-// Polymorphism :
+/* 
+Polymorphism : The word “polymorphism” means having many forms.
 
-// The word “polymorphism” means having many forms.
+Types of Polymorphism
+       1) Compile-time Polymorphism
+                  i)  Function Overloading : When there are multiple functions with the same name but different parameters,then the functions are said to be overloaded,
+                                             hence this is known as Function Overloading.
+                 ii) Operator Overloading : C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading.
 
-// Types of Polymorphism
-//       1) Compile-time Polymorphism
-//i)  Function Overloading : When there are multiple functions with the same name but different parameters,then the functions are said to be overloaded, hence this is known as Function Overloading.
+2) Runtime Polymorphism
+                 i) Function Overriding : 
+                 ii) Virtual Functions 
+
+*/
 #include <iostream>
 using namespace std;
  
