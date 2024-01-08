@@ -7,9 +7,15 @@ Types of Polymorphism
                                              hence this is known as Function Overloading.
                  ii) Operator Overloading : C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading.
 
-2) Runtime Polymorphism
-                 i) Function Overriding : 
-                 ii) Virtual Functions 
+       2) Runtime Polymorphism
+                 i) Function Overriding : Function Overriding occurs when a derived class has a definition for one of the member functions of the base class.
+                                          That base function is said to be overridden.
+                 ii) Virtual Functions  :1) A virtual function is a member function that is declared in the base class using the keyword virtual 
+                                            and is re-defined (Overridden) in the derived class.
+                                         2) Virtual functions ensure that the correct function is called for an object, 
+                                            regardless of the type of reference (or pointer) used for the function call.
+                                            
+                                          
 
 */
 #include <iostream>
