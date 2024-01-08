@@ -55,12 +55,4 @@ int main()
     c3.print();
 }
 
-// ii) Operator Overloading : C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading.
 
-//       2) Runtime Polymorphism
-//                 i) Function Overriding : 
-//                 ii) Virtual Functions 
-// 
-// 
-
-// 
