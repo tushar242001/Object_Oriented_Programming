@@ -14,7 +14,15 @@ Types of Polymorphism
                                             and is re-defined (Overridden) in the derived class.
                                          2) Virtual functions ensure that the correct function is called for an object, 
                                             regardless of the type of reference (or pointer) used for the function call.
-                                            
+
+
+Operator that cannot be overloaded are as follows:
+
+Scope operator (::)
+Sizeof
+member selector(.)
+member pointer selector(*)
+ternary operator(?:)
                                           
 
 */
@@ -78,5 +86,32 @@ int main()
     Complex c3 = c1 + c2;
     c3.print();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
