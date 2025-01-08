@@ -1,0 +1,50 @@
+In JavaScript, when you create an instance of the child class and call a method (like work()), the method defined in the child class will be called, overriding the one in the parent class.
+
+However, if you want to call the parent class's method while still using the child class instance, you can do this by calling the parent method explicitly using the super keyword.
+
+Solution:
+To call the parent class's work() method from the child class instance, without invoking the child class method, you can directly access the parent method using super.work() in a specific context.
+
+Here's how you can do it:
+
+Example Code:
+
+javascript
+
+// Parent class
+class Parent {
+    work() {
+        console.log("Working in the Parent class");
+    }
+}
+
+// Child class
+class Child extends Parent {
+    work() {
+        console.log("Working in the Child class");
+    }
+
+    callParentWork() {
+        super.work(); // This calls the work() method from the Parent class
+    }
+}
+
+// Create an object of the child class
+const childObject = new Child();
+
+// Call the work method from the Parent class using the child class's instance
+childObject.callParentWork();  // This calls the work method of the Parent class
+
+
+Explanation:
+The Child class has its own work() method, which overrides the one in the Parent class.
+We added a new method called callParentWork() in the Child class. Inside this method, we use super.work() to explicitly call the work() method from the Parent class.
+When you call childObject.callParentWork(), it calls the work() method from the Parent class, even though childObject is an instance of the Child class.
+
+Output:
+Working in the Parent class
+
+
+Key Points:
+super.work() allows you to call the parent class's method from within a child class method, even if the child class has overridden that method.
+This way, you can control when and how the parent class's method is called, even when you are working with an instance of the child class.
